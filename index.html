@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS</title>
+  <style>
+    * {
+      text-align: center;
+    }
+    textarea {
+      width: 600px;
+      height: 400px;
+      text-align: left;
+      font-size: 2em;
+    }
+    .fT{
+      font-size: 2em;
+    }
+    #clear{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Word Count</h1>
+  <textarea name="wordscount" id="input" autofocus> </textarea>
+
+  <div class="fT">
+    <p>
+      <b>Total Words : </b>
+      <span id="totalWd">0</span>
+    </p>
+    <p>
+      <b>Total Characters : </b>
+      <span id="totalCh">0</span>
+    </p>
+    
+    <button id="clear">Clear</button>
+  </div>
+  
+</body>
+<script src="js/script.js"></script>
+</html>
